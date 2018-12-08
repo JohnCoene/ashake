@@ -1,7 +1,7 @@
 .get_dependency <- function(script, cdn){
 
   if(isTRUE(cdn))
-    path <- c(href = paste0("https://rawgit.com/rdub80/aframe-shake2show-component/master/dist/"))
+    path <- c(href = paste0("https://cdn.jsdelivr.net/gh/rdub80/aframe-shake2show-component/dist/"))
   else
     path <- c(file = system.file("ashake", package = "ashake"))
 
